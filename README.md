@@ -82,7 +82,7 @@ We executed the original code and the optimized code for both 2017 and 2018. The
 |       | Naive | Optimized | 
 | ----- | ----- |-----------|
 | 2017 | ![image_name](Resources/VBA_Original_2017.png) | ![image_name](Resources/VBA_Challenge_2017.png) |
-| 2018 | ![image_name](Resources/VBA_Original_2017.png) | ![image_name](Resources/VBA_Challenge_2018.png) |
+| 2018 | ![image_name](Resources/VBA_Original_2018.png) | ![image_name](Resources/VBA_Challenge_2018.png) |
 
 To prove that the optimization is functionally correct, we simply compare the output from running the two programs. If the outcome is identical, we can say with high confidence that the optimization is indeed functionally correct. Note that this does not definitely prove the correctness of the optimization algorithm and it is possible that we might have to do more due diligence in practice.
 
@@ -91,7 +91,7 @@ In our case, the table below shows that the output from running the two programs
 |       | Naive | Optimized | 
 | ----- | ----- |-----------|
 | 2017 | ![image_name](Resources/VBA_Original_Output_2017.png) | ![image_name](Resources/VBA_Challenge_Output_2017.png) |
-| 2018 | ![image_name](Resources/VBA_Original_Output_2017.png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
+| 2018 | ![image_name](Resources/VBA_Original_Output_2018.png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
 
 
 ## Results Summary
