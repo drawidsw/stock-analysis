@@ -77,21 +77,21 @@ Also notice that the dumping of all information for a ticker occurs outside of b
 
 ## Results
 
-We executed the original code and the optimized code for both 2017 and 2018. The table below shows the running times for case case and shows the obvious improvement for the optimized code. This optimization will become crucial when the number of ticker symbols becomes large.
+We executed the original code and the optimized code for both 2017 and 2018. The table below shows the running times for each case (naive and optimized) thus demonstrating the obvious improvement using the optimized code. This optimization will become crucial when the number of ticker symbols becomes large.
 
 |       | 2017 | 2018 | 
 | ----- | ---- |------|
 | Naive | ![image_name](Resources/VBA_Original_2017.png) | ![image_name](Resources/VBA_Original_2018.png) |
 | Optimized | ![image_name](Resources/VBA_Challenge_2017.png) | ![image_name](Resources/VBA_Challenge_2018.png) |
 
-To prove that the optimization is functionally correct, we wimply compare the output from running the two programs. If the outcome is identical, we can say with high confidence that the optimization is indeed functionally correct. Note that this does not definitely prove the correctness of the optimization algorithm and it is possible that we might have to do more due diligence in practice.
+To prove that the optimization is functionally correct, we simply compare the output from running the two programs. If the outcome is identical, we can say with high confidence that the optimization is indeed functionally correct. Note that this does not definitely prove the correctness of the optimization algorithm and it is possible that we might have to do more due diligence in practice.
 
 In our case, the table below shows that the output from running the two programs is identical.
 
 |       | 2017 | 2018 | 
 | ----- | ---- |------|
 | Naive | ![image_name](Resources/VBA_Original_Output_2017.png) | ![image_name](Resources/VBA_Original_Output_2018.png) |
-| Optimized | ![image_name](Resources/VBA_Original_Output_2017).png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
+| Optimized | ![image_name](Resources/VBA_Challenge_Output_2017.png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
 
 
 ## Results Summary
