@@ -81,5 +81,5 @@ We executed the original code and the optimized code for both 2017 and 2018. The
 
 |       | 2017 | 2018 | 
 | ----- | ---- |------|
-| Naive |||
-| Optimized |||
+| Naive | ![image_name](Resources/VBA_Original_2017.png) | ![image_name](Resources/VBA_Original_2018.png) |
+| Optimized | ![image_name](Resources/VBA_Challenge_2017.png) | ![image_name](Resources/VBA_Challenge_2018.png) |
