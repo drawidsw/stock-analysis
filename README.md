@@ -91,6 +91,6 @@ In our case, the table below shows that the output from running the two programs
 |       | 2017 | 2018 | 
 | ----- | ---- |------|
 | Naive | ![image_name](Resources/VBA_Original_Output_2017.png) | ![image_name](Resources/VBA_Original_Output_2018.png) |
-| Optimized | ![image_name](Resources/VBA_Challenge_Output_2017).png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
+| Optimized | ![image_name](Resources/VBA_Original_Output_2017).png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
 
 
