@@ -94,3 +94,14 @@ In our case, the table below shows that the output from running the two programs
 | Optimized | ![image_name](Resources/VBA_Original_Output_2017).png) | ![image_name](Resources/VBA_Challenge_Output_2018.png) |
 
 
+## Results Summary
+
+* We can see that only two stocks were high performing in 2018.
+* We can see several stocks were high performing in 2017. In fact, DQ was the top performing stock in 2017 that probably propelled Steve's parents to invest in it. However, as new data became available, they probably didn't keep up with their continuing market trends analysis.
+
+## Summary and Conclusions
+
+* The refactored code is multiple orders of times faster than the original code. As the number of ticker symbols grow, it is unrealistic to scan the entire data set over and over for every symbol. The smart way is to scan it once and keep track of each ticker symbol separately.
+* Refactoring code in this case was relatively easy, but may be unrealistic for large projects.
+  * In this instance, we had to create only three separate arrays. For large projects, it may not be this simple.
+  * Each ticker variable is now accessible from the tickers array. In fact while originally refactoring the code, I forgot to access the ticker variable this way and it induced a bug in the code. Fortunately, this bug was caught by VBA runtime as the volume exceeded maximum allowable. It may not always be so. Refactoring code is usually an extremely time consuming and costly activity, and if not done right, can induce subtle bugs that may not be caught for a long time.
